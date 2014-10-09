@@ -1,10 +1,13 @@
 package com.techitech.sample.main;
 
+import org.joda.time.LocalTime;
+
 public class SampleTest {
 
 	public static void main(String[] args) {
-
-		System.out.println("Hello worldi");
+		
+		LocalTime currentTime = new LocalTime();
+		System.out.println("Hello World..The current local time is: " + currentTime);
 
 	}
 
